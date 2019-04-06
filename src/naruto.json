@@ -1,0 +1,12 @@
+[
+    {"id": 1, "src": "Narutoi.png", "selected": false, "alt": "naruto"},
+    {"id": 2, "src": "gaara.jpg", "selected": false, "alt": "gaara"},
+    {"id": 3, "src": "Hinata.png", "selected": false, "alt": "hinata"},
+    {"id": 4, "src": "itachi.jpg", "selected": false, "alt": "itachi"},
+    {"id": 5, "src": "kakashi.jpg", "selected": false, "alt": "kakashi"},
+    {"id": 6, "src": "orochimaru.jpg", "selected": false, "alt": "orochimary"},
+    {"id": 7, "src": "rocklee.png", "selected": false, "alt": "rock lee"},
+    {"id": 8, "src": "sakura.jpg", "selected": false, "alt": "sakura"},
+    {"id": 9, "src": "Sasuke.png", "selected": false, "alt": "sasuke"},
+    {"id": 10, "src": "Tsunade.png", "selected": false, "alt": "tsunade"}
+]
