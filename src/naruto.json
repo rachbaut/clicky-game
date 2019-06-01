@@ -1,12 +1,14 @@
 [
-    {"id": 1, "src": "Narutoi.png", "selected": false, "alt": "naruto"},
-    {"id": 2, "src": "gaara.jpg", "selected": false, "alt": "gaara"},
-    {"id": 3, "src": "Hinata.png", "selected": false, "alt": "hinata"},
-    {"id": 4, "src": "itachi.jpg", "selected": false, "alt": "itachi"},
+    {"id": 1, "src": "naruto.png", "selected": false, "alt": "naruto"},
+    {"id": 2, "src": "gaara.png", "selected": false, "alt": "gaara"},
+    {"id": 3, "src": "Hinata.jpg", "selected": false, "alt": "hinata"},
+    {"id": 4, "src": "itachi.png", "selected": false, "alt": "itachi"},
     {"id": 5, "src": "kakashi.jpg", "selected": false, "alt": "kakashi"},
     {"id": 6, "src": "orochimaru.jpg", "selected": false, "alt": "orochimary"},
     {"id": 7, "src": "rocklee.png", "selected": false, "alt": "rock lee"},
     {"id": 8, "src": "sakura.jpg", "selected": false, "alt": "sakura"},
-    {"id": 9, "src": "Sasuke.png", "selected": false, "alt": "sasuke"},
-    {"id": 10, "src": "Tsunade.png", "selected": false, "alt": "tsunade"}
+    {"id": 9, "src": "sasuke.jpg", "selected": false, "alt": "sasuke"},
+    {"id": 10, "src": "Tsunade.png", "selected": false, "alt": "tsunade"},
+    {"id": 11, "src": "ino.png", "selected": false, "alt": "ino"},
+    {"id": 12, "src": "madara.png", "selected": false, "alt": "madara"}
 ]

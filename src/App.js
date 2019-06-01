@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import characters from './naruto.json'
+import { CardColumns, Card, Container, Jumbotron } from 'react-bootstrap';
 
 class App extends Component {
   constructor(props) {
@@ -54,15 +55,24 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-      <p>Current Score: {this.state.clicks}</p>
-      <p>High Score: {this.state.highestClicks}</p>
-       {this.state.characters.map(character => (
-         <div key={character.id} className="card">
-           <img src={`/assets/images/${character.src}`} alt={character.alt} onClick={()=>this.handleClick(character.id)}></img>
-         </div>
-       ))}
-      </div>
+   <container className="background">
+        <Jumbotron className="header">
+              <h1 className="subheader">Naruto Memory Game</h1>
+              <p className="par">
+                Start by clicking on any Naruto character. Now, if you click twice on any character that you have already picked then you lose. 
+                This game will mark your highest score, try picking all of the characters without losing!
+              </p>
+        </Jumbotron>
+       <div className="App">
+       <p className="current">Current Score: {this.state.clicks}</p>
+       <p className="high">High Score: {this.state.highestClicks}</p>
+        {this.state.characters.map(character => (
+          <div key={character.id} className="card">
+            <img src={`/assets/images/${character.src}`} alt={character.alt} onClick={()=>this.handleClick(character.id)}></img>
+          </div>
+        ))}
+       </div>
+    </container>
     );
   }
 }
