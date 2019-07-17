@@ -55,12 +55,12 @@ class App extends Component {
 
   render() {
     return (
-   <container className="background">
+   <div className="background">
         <Jumbotron className="header">
               <h1 className="subheader">Naruto Memory Game</h1>
               <p className="par">
                 Start by clicking on any Naruto character. Now, if you click twice on any character that you have already picked then you lose. 
-                This game will mark your highest score, try picking all of the characters without losing!
+                This game will mark your highest score, now try picking all of the characters without losing!
               </p>
         </Jumbotron>
        <div className="App">
@@ -72,7 +72,7 @@ class App extends Component {
           </div>
         ))}
        </div>
-    </container>
+    </div>
     );
   }
 }

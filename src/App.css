@@ -23,6 +23,13 @@
   color: #61dafb;
 }
 
+.background {
+  background-image: url("./assets/img/large_leaf.jpg");
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
 .card {
   border: 1px solid black;
   border-radius: 100px;
@@ -40,16 +47,37 @@ img {
 }
 
 .subheader {
-  text-align: left;
-  margin-left: 45px;
-  margin-top: 70px;
+  text-align: center;
+  padding-top: 65px;
+  margin-bottom: 30px;
+  color: whitesmoke;
+  font-size: 55px;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .par {
-  text-align: left;
+  text-align: center;
   margin-left: 45px;
   margin-right: 45px;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
+
+.current {
+ color: whitesmoke;
+ font-size: 20px;
+ font-family: 'Permanent Marker', cursive;
+}
+
+.high {
+ color: whitesmoke;
+ font-size: 20px;
+ font-family: 'Permanent Marker', cursive;
+ padding-bottom: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto&display=swap');
 
 @keyframes App-logo-spin {
   from {
