@@ -1,14 +1,11 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
-}
+}  */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,11 +14,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
+
+
+
+/* STYLES FOR THE IMAGE AND HEADER INTRO */
 
 .background {
   background-image: url("./assets/img/large_leaf.jpg");
@@ -29,6 +30,44 @@
   margin-right: 20px;
   border-radius: 10px;
 }
+
+.subheader {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 30px;
+  color: whitesmoke;
+  font-size: 55px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.par {
+  text-align: center;
+  padding-left: 75px;
+  padding-right: 75px;
+  color: whitesmoke;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.current {
+ color: whitesmoke;
+ font-size: 24px;
+ font-family: 'Permanent Marker', cursive;
+}
+
+.high {
+ color: whitesmoke;
+ font-size: 24px;
+ font-family: 'Permanent Marker', cursive;
+ padding-bottom: 30px;
+ margin-bottom: 50px;
+}
+
+.App {
+  text-align: center;
+}
+
+/* STYLES FOR THE CHARACTER CARDS */
 
 .card {
   border: 1px solid black;
@@ -46,44 +85,8 @@ img {
   border-radius: 100px;
 }
 
-.subheader {
-  text-align: center;
-  padding-top: 65px;
-  margin-bottom: 30px;
-  color: whitesmoke;
-  font-size: 55px;
-  font-family: 'Permanent Marker', cursive;
-}
-
-.par {
-  text-align: center;
-  margin-left: 45px;
-  margin-right: 45px;
-  color: whitesmoke;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-}
-
-.current {
- color: whitesmoke;
- font-size: 20px;
- font-family: 'Permanent Marker', cursive;
-}
-
-.high {
- color: whitesmoke;
- font-size: 20px;
- font-family: 'Permanent Marker', cursive;
- padding-bottom: 20px;
-}
+/* GOOGLE FONTS IMPORTED */
 
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto&display=swap');
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
